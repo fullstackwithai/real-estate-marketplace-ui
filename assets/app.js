@@ -1,0 +1,11 @@
+const properties=[
+{id:1,title:'Skyline Residence',city:'Miami',type:'Condo',price:720000,beds:2,baths:2,size:1180,premium:true,img:'linear-gradient(135deg,#0ea5e9,#1e293b)'},
+{id:2,title:'Gostivar Family Villa',city:'Gostivar',type:'House',price:285000,beds:4,baths:3,size:2450,premium:true,img:'linear-gradient(135deg,#22c55e,#164e63)'},
+{id:3,title:'Skopje Business Flat',city:'Skopje',type:'Apartment',price:168000,beds:2,baths:1,size:870,premium:false,img:'linear-gradient(135deg,#8b5cf6,#0f172a)'},
+{id:4,title:'Palm District Townhome',city:'Miami',type:'Townhome',price:540000,beds:3,baths:3,size:1620,premium:false,img:'linear-gradient(135deg,#f59e0b,#1f2937)'},
+{id:5,title:'Tetovo Mountain View',city:'Tetovo',type:'Apartment',price:126000,beds:2,baths:1,size:790,premium:false,img:'linear-gradient(135deg,#06b6d4,#172554)'},
+{id:6,title:'Lakefront Premier Estate',city:'Ohrid',type:'House',price:890000,beds:5,baths:4,size:3880,premium:true,img:'linear-gradient(135deg,#facc15,#78350f)'}];
+const grid=document.querySelector('#propertyGrid');const city=document.querySelector('#cityFilter');const type=document.querySelector('#typeFilter');const search=document.querySelector('#searchBox');
+function money(n){return new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(n)}
+function render(){const q=search.value.toLowerCase();const filtered=properties.filter(p=>(!city.value||p.city===city.value)&&(!type.value||p.type===type.value)&&(p.title.toLowerCase().includes(q)||p.city.toLowerCase().includes(q)||p.type.toLowerCase().includes(q)));grid.innerHTML=filtered.map(p=>`<article class="listing card"><div class="photo" style="background:${p.img}">${p.premium?'<span class="premium">Premier</span>':''}</div><div class="listing-body"><div><span class="tag">${p.city}</span><h3>${p.title}</h3><p class="muted">${p.beds} beds • ${p.baths} baths • ${p.size.toLocaleString()} sqft</p></div><strong class="price">${money(p.price)}</strong><button class="btn secondary">View listing</button></div></article>`).join('')||'<p class="muted">No listings match your filters.</p>';document.querySelector('#resultCount').textContent=filtered.length;}
+[city,type,search].forEach(el=>el.addEventListener('input',render));render();
