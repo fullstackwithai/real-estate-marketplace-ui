@@ -1,6 +1,8 @@
 # Real Estate Marketplace UI
 
-A polished PropTech marketplace front-end for property discovery, premium listings, agent/agency positioning, and admin-style marketplace workflows.
+> A polished PropTech marketplace front-end for property discovery, premium listings, agent/agency positioning, and admin-style marketplace workflows.
+
+Built by **Arsim Shefkiu** under **FullStackWithAI** — full-stack, AI-assisted, and data-driven web solutions.
 
 ![Project screenshot](./assets/screenshot.png)
 
@@ -43,3 +45,12 @@ npx http-server .
 - Add saved searches
 - Add admin dashboard routes
 - Add map provider integration
+
+## About
+
+Built by **Arsim Shefkiu** under **FullStackWithAI** — Full Stack Web Developer & AI-Assisted Builder specializing in AI-powered web products, dashboards, automation tools, and modern portfolio-ready applications.
+
+- 🌐 [designhubmk.com](https://www.designhubmk.com)
+- 📧 info@designhubmk.com
+- 💼 [LinkedIn](https://www.linkedin.com/in/arsim-shefkiu-78432a3b5)
+- 🐙 [GitHub](https://github.com/fullstackwithai)
