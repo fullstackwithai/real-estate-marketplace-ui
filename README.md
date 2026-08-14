@@ -1,20 +1,19 @@
-# Real Estate Marketplace UI
+<div align="center">
 
-> Luxury PropTech marketplace interface for premium listings, property discovery, agent positioning, verification workflows, and real estate product presentation.
+# REAL ESTATE MARKETPLACE UI
 
-Built by **Arsim Shefkiu** under **FullStackWithAI**.
+### Luxury PropTech Marketplace Experience
 
-<p align="center">
-  <img alt="Luxury PropTech" src="https://img.shields.io/badge/Luxury%20PropTech-Premium%20Marketplace-C9A646?style=for-the-badge" />
-  <img alt="Listings" src="https://img.shields.io/badge/Listings-Search%20%26%20Discovery-111827?style=for-the-badge" />
-  <img alt="Brand" src="https://img.shields.io/badge/FullStackWithAI-Real%20Estate%20UI-C9A646?style=for-the-badge" />
-</p>
+**Premium listings. Verified trust. Marketplace clarity.**
 
-<p align="center">
-  <a href="https://www.designhubmk.com"><strong>www.designhubmk.com</strong></a> ·
-  <strong>arsim@designhubmk.com</strong> ·
-  <a href="https://github.com/fullstackwithai"><strong>GitHub: fullstackwithai</strong></a>
-</p>
+[![Portfolio](https://img.shields.io/badge/portfolio-DesignHubMK-0A66C2?style=flat-square)](https://www.designhubmk.com)
+![Focus](https://img.shields.io/badge/focus-Luxury%20PropTech-C9A646?style=flat-square)
+![Product](https://img.shields.io/badge/product-Marketplace%20UI-111827?style=flat-square)
+![Status](https://img.shields.io/badge/status-Portfolio%20Project-2E8B57?style=flat-square)
+
+**Discover better. Present premium. Build marketplace trust.**
+
+</div>
 
 ---
 
@@ -23,8 +22,6 @@ Built by **Arsim Shefkiu** under **FullStackWithAI**.
 ---
 
 ## Luxury Marketplace Theme
-
-> **Premium listings. Verified trust. Marketplace clarity.**
 
 This repository is presented as a premium real estate marketplace concept. The README, interface, and project positioning follow a black-gold luxury PropTech direction focused on property discovery, listing confidence, and polished marketplace workflows.
 
@@ -96,22 +93,28 @@ real-estate-marketplace-ui/
 
 ---
 
-## Creator & Brand
+## Author
 
-### Built by **Arsim Shefkiu** under **FullStackWithAI**
+**Arsim Shefkiu**  
+**AI Software Engineer · Full-Stack Developer · SaaS & Automation**
 
-> **Luxury PropTech theme focused on premium listings, search discovery, verified trust, and real estate product presentation.**
+Founder of **DesignHubMK**, building AI-powered software, automation systems, and full-stack digital products.
 
-| Creator Focus | Brand Positioning |
-|---|---|
-| I build polished real estate and marketplace interfaces that combine premium visual presentation with business-ready product structure. | **FullStackWithAI** represents modern portfolio work built around real digital products, refined UI, and AI-assisted execution. |
+[![DesignHubMK](https://img.shields.io/badge/DesignHubMK-Website-555555?logo=googlechrome&logoColor=white)](https://www.designhubmk.com)
+[![Instagram](https://img.shields.io/badge/Instagram-%40designhub__mk-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/designhub_mk/)
+[![GitHub](https://img.shields.io/badge/GitHub-fullstackwithai-181717?logo=github&logoColor=white)](https://github.com/fullstackwithai)
 
-<p align="center">
-  <strong>Theme:</strong> Luxury PropTech · Marketplace UI · Premium Listings · Verified Trust
-</p>
+**Website:** https://www.designhubmk.com  
+**Instagram:** @designhub_mk
 
-<p align="center">
-  <a href="https://www.designhubmk.com"><strong>www.designhubmk.com</strong></a> ·
-  <strong>arsim@designhubmk.com</strong> ·
-  <a href="https://github.com/fullstackwithai"><strong>GitHub: fullstackwithai</strong></a>
-</p>
+---
+
+<div align="center">
+
+## Real Estate Marketplace UI
+
+**Discover better. Present premium. Build marketplace trust.**
+
+Built by **Arsim Shefkiu · DesignHubMK**
+
+</div>
